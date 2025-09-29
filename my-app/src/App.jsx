@@ -1,5 +1,6 @@
 import Header from "./Header"
 import TodoList from "./TodoList"
+import Input from "./Input"
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <TodoList/>
+      <Input/>
     </>
   )
 }
